@@ -33,11 +33,9 @@
         </ul>
       </div>
 
-       <div class="work__blob">
-        <img src="../assets/blob_work.svg" alt="">
+      <div class="work__blob">
+        <img src="../assets/blob_work.svg" alt="" />
       </div>
     </section>
-
-
   </div>
 </template>
