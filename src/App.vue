@@ -1,6 +1,7 @@
 <template>
   <header id="nav" class="layout__header">
     <div class="navigation__left">
+      <!-- Logo -->
       <svg
         width="88"
         height="89"
@@ -86,12 +87,13 @@
       </svg>
     </div>
 
-    <router-link class="navigation__home navigation__link" to="/"
-      >01 home</router-link
-    >
-    <router-link class="navigation__work navigation__link" to="/work"
-      >02 work</router-link
-    >
+    <div class="navigation__home navigation__link">
+      <router-link to="/">01 home<span></span></router-link>
+    </div>
+    <div class="navigation__work navigation__link">
+      <router-link to="/work">02 work<span></span></router-link>
+    </div>
+
     <!-- <router-link class="navigation__blog navigation__link" to="/blog">03 blog</router-link> -->
   </header>
 

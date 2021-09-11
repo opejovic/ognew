@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
-    <div class="home__copy">
+    <div class="home__copy" style="padding-left: 10px;">
       <h1 class="home__heading">
         Hello I’m Ognjen. <br />I build things for the web.
       </h1>
